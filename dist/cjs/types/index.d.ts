@@ -1,0 +1,12 @@
+import * as React from "react";
+import * as NavigationMenuPrimitive from "@radix-ui/react-navigation-menu";
+declare const NavigationMenu: React.ForwardRefExoticComponent<Omit<any, "ref"> & React.RefAttributes<unknown>>;
+declare const NavigationMenuList: React.ForwardRefExoticComponent<Omit<any, "ref"> & React.RefAttributes<unknown>>;
+declare const NavigationMenuItem: React.ForwardRefExoticComponent<NavigationMenuPrimitive.NavigationMenuItemProps & React.RefAttributes<HTMLLIElement>>;
+declare const navigationMenuTriggerStyle: (props?: import("class-variance-authority/dist/types").ClassProp | undefined) => string;
+declare const NavigationMenuTrigger: React.ForwardRefExoticComponent<Omit<any, "ref"> & React.RefAttributes<unknown>>;
+declare const NavigationMenuContent: React.ForwardRefExoticComponent<Omit<NavigationMenuPrimitive.NavigationMenuContentProps & React.RefAttributes<HTMLDivElement>, "ref"> & React.RefAttributes<HTMLDivElement>>;
+declare const NavigationMenuLink: React.ForwardRefExoticComponent<NavigationMenuPrimitive.NavigationMenuLinkProps & React.RefAttributes<HTMLAnchorElement>>;
+declare const NavigationMenuViewport: React.ForwardRefExoticComponent<Omit<any, "ref"> & React.RefAttributes<unknown>>;
+declare const NavigationMenuIndicator: React.ForwardRefExoticComponent<Omit<any, "ref"> & React.RefAttributes<unknown>>;
+export { navigationMenuTriggerStyle, NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuContent, NavigationMenuTrigger, NavigationMenuLink, NavigationMenuIndicator, NavigationMenuViewport, };
